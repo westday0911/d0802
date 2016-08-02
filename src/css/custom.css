@@ -56,9 +56,15 @@ a:hover, a:active{
 }
 .fb-like{
   position: absolute!important;
-  right: 62px;
+  right: 162px;
   top: 100px;
 }
+.fb-point-top{
+  position: absolute;
+  top: 96px;
+  right: 19px;
+}
+
 .navbar-default{
   /*display: none;*/
   background:  transparent;
@@ -540,17 +546,25 @@ h1{
 }
 .share-right h4{
   font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+      margin-top: 8px;
+    margin-bottom: 8px;
 }
 .share-right .fb-share-button{
-  margin-bottom: 5px;
+      margin-bottom: 8px;
+    margin-top: 8px;
+    
 }
-.share-right .fb-like.fb-like-answer{
+.share-bottom .fb-point{
+    vertical-align: middle;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.share-bottom .fb-like.fb-like-answer{
   position: relative!important;
   right: auto;
   top: auto;
   margin-top: 0;
+  vertical-align: middle;
 }
 .share-right img{
   width: 50px;
@@ -645,6 +659,7 @@ h1{
 .btn-1, .btn-2, .btn-2-1, .btn-2-2, .btn-3, .btn-4, .btn-5-1, .btn-5-2, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10{
   cursor: pointer;
 }
+
 /*mobile*/
 @media (max-width: 500px){ 
   .navbar-default .time-img{
@@ -743,9 +758,9 @@ h1{
     margin-top: 0;
     width: 100%;
     padding: 8px 40px;
-    height: 50%!important;
     position: absolute;
-    top: 50%;
+    top: 47%;
+    bottom:0;
   }
   .answer .p-b-200 {
     padding-bottom: 12px;
@@ -862,5 +877,17 @@ h1{
     left: 30%;
     bottom: 10%;
     margin-left: auto;
+  }
+}
+/*iphone5s*/
+@media (max-width: 321px){
+  .answer {
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    padding: 8px 40px;
+    position: absolute;
+    top: 43%;
+    bottom:0;
   }
 }
