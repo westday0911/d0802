@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta property="og:url"           content="http://demo1.hiinmusic.com/a6.html" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="樓下的房客-測驗結果" />
+    <meta property="og:description"   content="你是...鑿開人生盡頭前的陳小姐" />
+    <meta property="og:image"         content="http://demo1.hiinmusic.com/src/img/a6.jpg" />
+    <title>樓下的房客</title>
+    <!-- CSS/js link -->
+    <link rel="stylesheet" type="text/css" href="src/bootstrap-3.3.6-dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="src/fullpage/dist/jquery.fullpage.css">
+    <link rel="stylesheet" type="text/css" href="src/css/custom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-cus container" style="display:none;">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <!-- <a class="navbar-brand" href="#">樓下的房客</a> -->
+          <a class="navbar-brand" href="/"><img src="src/img/logo-sm.png"></a>
+        </div>
+        <img src="src/img/812.png" class="time-img">
+        <button class="btn-watch-movie btn-enter">觀賞預告影片</button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div id="fullpage">
+      <div class="section sec-answer a-6">
+          <div class="answer">
+            <h3 class="p-b-200">你是...</h3>
+            <h3>鑿開人生盡頭<span class="text-big"> 後 </span>的<span class="text-big">陳小姐</span></h3>
+            <hr>
+            <p>陳小姐，擅用自己的性感魅力，讓自己成為男人眼中可口的獵物。當然，獵豔過後，也必須付出相對應的代價。</p>
+            <div class="block-share">
+              <div class="share-left">
+                <button class="btn-enter btn-replay">重新玩一次</button>
+                <button class="btn-enter"  data-toggle="modal" data-target=".video-modal">觀賞預告片</button>
+              </div>
+              <div class="share-right">
+                <h4>SHARE分享結果</h4>
+                <div class="fb-share-button" data-href="http://demo1.hiinmusic.com/a6.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdemo1.hiinmusic.com%2Fa6.html&amp;src=sdkpreparse">分享</a></div>
+                <div class="fb-like fb-like-answer" data-href="https://www.facebook.com/TheTenantsDownstairs" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+              </div>
+            </div>
+          </div>
+          <a class="navbar-brand logo-right-bottom" href="/"><img src="src/img/logo-sm.png"></a>
+        </div>
+    </div>
+    <!-- Large modal -->
+
+    <div class="modal fade video-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/amL7Vm3ijlQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <footer>
+      <div class="">
+        <div class="col-md-12 text-center">
+          copyright © 2016 樓下的房客
+          <span class="">
+            <a href="https://www.facebook.com/TheTenantsDownstairs">
+              <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer> -->
+  </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="src/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<script src="src/fullpage/dist/jquery.fullpage.js"></script>
+<script src="src/js/font.js"></script>
+<script src="src/js/main.js"></script>
+<script type="text/javascript">
+var a1=0, a2=0, a3=0, a4=0, a5=0, a6=0, a7=0, a8=0, a9=0;
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+      css3: true,
+    });
+    $.fn.fullpage.setAllowScrolling(false);
+    $.fn.fullpage.setKeyboardScrolling(false);
+
+    $('.btn-0').on('click', function(){
+       $.fn.fullpage.moveTo(2);
+    })
+    $('.btn-1').on('click', function(){
+       $.fn.fullpage.moveTo(3);
+    })
+    $('.btn-2-1').on('click', function(){
+       $.fn.fullpage.moveTo(4);
+    })
+    $('.btn-2-2').on('click', function(){
+       $.fn.fullpage.moveTo(5);
+    })
+    $('.btn-3').on('click', function(){
+       $.fn.fullpage.moveTo(6);
+    })
+    $('.btn-4').on('click', function(){
+       $.fn.fullpage.moveTo(6);
+    })
+    $('.btn-5-1').on('click', function(){
+       $.fn.fullpage.moveTo(7);
+    })
+    $('.btn-5-2').on('click', function(){
+       $.fn.fullpage.moveTo(8);
+    })
+    $('.btn-6').on('click', function(){
+       $.fn.fullpage.moveTo(9);
+    })
+    $('.btn-7').on('click', function(){
+       $.fn.fullpage.moveTo(9);
+    })
+    $('.btn-8').on('click', function(){
+       $.fn.fullpage.moveTo(10);
+    })
+    $('.btn-9').on('click', function(){
+       $.fn.fullpage.moveTo(11);
+    })
+
+    $('.btn-replay').on('click', function(){
+       window.location='/';
+    })
+
+    $('.choose-1').on('click', function(){//E1-1
+       a1=1;
+    })
+    $('.choose-2').on('click', function(){//E1-2
+       a2=1;
+    })
+    $('.choose-3').on('click', function(){//E1-3
+       a3=1;
+    })
+    $('.choose-4').on('click', function(){//E2-1
+       a4=1;
+    })
+    $('.choose-5').on('click', function(){//E2-2
+       a5=1;
+    })
+    $('.choose-6').on('click', function(){//E2-3
+       a6=1;
+    })
+    $('.choose-7').on('click', function(){//E2-4
+       a7=1;
+    })
+    $('.choose-8').on('click', function(){//H1
+       a8=1;
+       if(a1 && a8){
+        $.fn.fullpage.moveTo(20);
+       }
+       if(a1 && a9){
+        $.fn.fullpage.moveTo(21);
+       }
+       if(a2 && a8){
+        $.fn.fullpage.moveTo(24);
+       }
+       if(a2 && a9){
+        $.fn.fullpage.moveTo(16);
+       }
+       if(a3 && a8){
+        $.fn.fullpage.moveTo(18);
+       }
+       if(a3 && a9){
+        $.fn.fullpage.moveTo(12);
+       }
+       if(a4 && a8){
+        $.fn.fullpage.moveTo(17);
+       }
+       if(a4 && a9){
+        $.fn.fullpage.moveTo(19);
+       }
+       if(a5 && a8){
+        $.fn.fullpage.moveTo(13);
+       }
+       if(a5 && a9){
+        $.fn.fullpage.moveTo(15);
+       }
+       if(a6 && a8){
+        $.fn.fullpage.moveTo(23);
+       }
+       if(a6 && a9){
+        $.fn.fullpage.moveTo(14);
+       }
+       if(a7 && a8){
+        $.fn.fullpage.moveTo(22);
+       }
+       if(a7 && a9){
+        $.fn.fullpage.moveTo(25);
+       }
+    })
+    $('.choose-9').on('click', function(){//H1
+       a9=1;
+       if(a1 && a8){
+        $.fn.fullpage.moveTo(20);
+       }
+       if(a1 && a9){
+        $.fn.fullpage.moveTo(21);
+       }
+       if(a2 && a8){
+        $.fn.fullpage.moveTo(24);
+       }
+       if(a2 && a9){
+        $.fn.fullpage.moveTo(16);
+       }
+       if(a3 && a8){
+        $.fn.fullpage.moveTo(18);
+       }
+       if(a3 && a9){
+        $.fn.fullpage.moveTo(12);
+       }
+       if(a4 && a8){
+        $.fn.fullpage.moveTo(17);
+       }
+       if(a4 && a9){
+        $.fn.fullpage.moveTo(19);
+       }
+       if(a5 && a8){
+        $.fn.fullpage.moveTo(13);
+       }
+       if(a5 && a9){
+        $.fn.fullpage.moveTo(15);
+       }
+       if(a6 && a8){
+        $.fn.fullpage.moveTo(23);
+       }
+       if(a6 && a9){
+        $.fn.fullpage.moveTo(14);
+       }
+       if(a7 && a8){
+        $.fn.fullpage.moveTo(22);
+       }
+       if(a7 && a9){
+        $.fn.fullpage.moveTo(25);
+       }
+    })
+
+});
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>

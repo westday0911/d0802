@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);/*google 明體*/
+/*@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);/*google 思源黑體*/
+
+html, .container{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+  color: #fff;
+  background-image: url("../img/bg01.jpg");
+  /*background-image: url("../img/bg02.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position:center center;*/
+  background-position: right 10px center;
+  font-family:  'cwTeXMing','PMingLiU', sans-serif;
+  font-weight: '400';
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #e8e8e8;
+  padding: 10px;
+  font-weight: bold;
+  /*display: none;*/
+}
+footer a{
+  color: #e8e8e8;
+}
+a:hover, a:active{
+  color: #fff;
+}
+
+.navbar-default{
+  /*display: none;*/
+  background:  transparent;
+  border:none;
+}
+.navbar-default .navbar-brand{
+  font-weight: bold;
+  color: #fff;
+}
+.navbar-default .navbar-brand img{
+  width: 160px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #f3f3f3;
+}
+
+/*sec-0*/
+section.sec-0{
+  /*display: none;*/
+    width: 300px;
+  /* margin-right: 10px; */
+  position: absolute;
+  text-align: center;
+  right: 10%;
+}
+section.sec-0 h1{
+  font-size: 120px;
+  margin-top: 20%;
+  margin-right: 10%;
+}
+section.sec-0 h2{
+  font-size: 50px;
+  margin-bottom: 5%;
+  text-decoration: none;
+}
+section.sec-0 .man{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+/*.sec-0 .btn-enter{
+  margin:auto;
+  font-size: 26px;
+  background: transparent;
+  border: 1px #fff solid;
+  border-radius: 0px;
+  padding: 4px 50px;
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 10px #fff;
+  
+}*/
+.sec-0 .btn-enter:hover{
+  color: #000;
+  background-color: #fff;
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+.sec-0 .btn-enter:focus{
+  outline: none;
+  border-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+h1{
+  margin-top: 12%;
+  width: 100%;
+  padding: 0 15%;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+h2{
+  cursor: pointer;
+  font-size: 24px;
+  text-decoration: underline;
+}
+.row-answer{
+  width: 100%;
+  top: 60%;
+  padding: 0 15%;
+}
+.row-answer img{
+  width: 40%;
+  margin: auto;
+}
+.row-answer i{
+  padding-right: 20px;
+}
