@@ -887,7 +887,8 @@ h1{
     width: 100%;
     padding: 8px 40px;
     position: absolute;
-    top: 43%;
+    top: 35%;
     bottom:0;
+        height: auto!important;
   }
 }
