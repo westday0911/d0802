@@ -175,16 +175,20 @@ a:hover, a:active{
       position: absolute;
     bottom: 40px;
 }
-.sec-0 .col-xs-6.text-left{
+.sec-0 .col-xs-12.text-center{
     position: absolute;
     bottom: 40px;
-    left: 50%;
+    height: auto;
+}
+.sec-0 .col-xs-12.text-center .btn-enter{
+    width: 360px;
 }
 .sec-0 .down{
     position: absolute;
-    left: 90px;
+    left: 50%;
     bottom: -22px;
     width: 20px;
+    margin-left: -10px;
 }
 
 h1{
@@ -659,8 +663,15 @@ h1{
 .btn-1, .btn-2, .btn-2-1, .btn-2-2, .btn-3, .btn-4, .btn-5-1, .btn-5-2, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10{
   cursor: pointer;
 }
-
+.mobile-only{
+    display: none;
+}
 /*mobile*/
+@media (max-width: 768px){ 
+  .mobile-only{
+    display: block;
+  }
+}
 @media (max-width: 500px){ 
   .navbar-default .time-img{
     width: 91px;
@@ -691,7 +702,7 @@ h1{
     font-size: 16px;
     color: #eaecef;
     line-height: 27px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   h3 {
     font-size: 14px!important;
@@ -720,8 +731,8 @@ h1{
     padding: 0 5%!important;
   }
   .row-answer img{
-        width: 38%;
-    margin: 15px auto!important;
+        width: 33%;
+    margin: 10px auto!important;
     height: auto!important;
   }
   .q-2 .row-answer{
