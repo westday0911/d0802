@@ -1,5 +1,5 @@
 use Rack::Static,
-  :urls => ["/src"],
+  :urls => ["/src"] + (1..14).map { |i| "/a#{i}.html" },
   :root => "public"
 
 
