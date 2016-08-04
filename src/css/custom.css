@@ -687,13 +687,17 @@ h1{
     width: 300px;
     margin-left: -150px;
   }
+  .sec-0 .btn-enter{
+    width: 100%!important;
+    font-size: 16px;
+  }
   .btn-enter{
     width: 120px;
     font-size: 16px;
   }
   .sec-0 .down {
     position: absolute;
-    left: 65px;
+    left: 50%;
     bottom: -22px;
     width: 20px;
   }
