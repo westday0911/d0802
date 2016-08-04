@@ -1,5 +1,5 @@
 use Rack::Static,
-  # :urls => ["/"],
+  :urls => ["/src"],
   :root => "public"
 
 
