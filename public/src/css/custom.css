@@ -159,12 +159,12 @@ a:hover, a:active{
     border-color: #fff;
     box-shadow: 0 0 10px #fff;
 }
-.answer .btn-enter:hover{
-  color: #000;
-  background-color: #fff;
-  outline: none;
-  border-color: #fff;
-  box-shadow: 0 0 10px #fff;
+.btn-enter:hover{
+  color: #000!important;
+  background-color: #fff!important;
+  outline: none!important;
+  border-color: #fff!important;
+  box-shadow: 0 0 10px #fff!important;
 }
 .sec-0 .btn-enter:focus{
   outline: none;
