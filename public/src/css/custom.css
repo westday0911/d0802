@@ -159,7 +159,7 @@ a:hover, a:active{
     border-color: #fff;
     box-shadow: 0 0 10px #fff;
 }
-.btn-enter:hover{
+.answer .btn-enter:hover{
   color: #000;
   background-color: #fff;
   outline: none;
@@ -499,7 +499,7 @@ h1{
   
 }
 .answer .p-b-200{
-  padding-bottom: 137px;
+  /*padding-bottom: 137px;*/
 }
 .sec-answer{
   height: 100%!important;
