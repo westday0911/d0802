@@ -26,7 +26,7 @@ body{
   position: relative;
   background: #000;
   color: #fff;
-  background-image: url("../img/bg_q.png");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/bg_q.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
@@ -123,7 +123,7 @@ a:hover, a:active{
 /*sec-0*/
 .sec-0{
   /*display: none;*/
-  background-image: url("../img/bg.gif");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/bg.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center center;
@@ -242,14 +242,14 @@ h1{
 .q-3-1 .block-choose div.choose{
    width: 40px;
    height: 40px;
-   background-image: url("../img/choose.png");
+   background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/choose.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center center;
   cursor: pointer;
 }
 .q-3-1 .block-choose div.choose:hover{
-  background-image: url("../img/choose_h.png");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/choose_h.png");
 }
 .q-3-1 .block-desc{
       display: inline-block;
@@ -284,14 +284,14 @@ h1{
 .q-5-1 .block-choose div.choose{
    width: 40px;
    height: 40px;
-   background-image: url("../img/choose.png");
+   background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/choose.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center center;
   cursor: pointer;
 }
 .q-5-1 .block-choose div.choose:hover{
-  background-image: url("../img/choose_h.png");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/choose_h.png");
 }
 .q-5-1 .block-desc{
       display: inline-block;
@@ -313,14 +313,14 @@ h1{
 .q-5-2 .block-choose div.choose{
    width: 40px;
    height: 40px;
-   background-image: url("../img/choose.png");
+   background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/choose.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:center center;
   cursor: pointer;
 }
 .q-5-2 .block-choose div.choose:hover{
-  background-image: url("../img/choose_h.png");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/choose_h.png");
 }
 .q-5-2 .block-desc{
       display: inline-block;
@@ -585,29 +585,29 @@ h1{
 
 
 .a-1{
-  background-image: url("../img/a1.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a1.jpg");
   
 }
 .a-1 .answer, .a-2 .answer{
   background-color: rgba(184, 120, 132, 0.6);
 }
 .a-2{
-  background-image: url("../img/a2.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a2.jpg");
   
 }
 .a-3{
-  background-image: url("../img/a3.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a3.jpg");
   
 }
 .a-3 .answer, .a-4 .answer{
   background-color: rgba(124,88,157,0.6);
 }
 .a-4{
-  background-image: url("../img/a4.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a4.jpg");
   
 }
 .a-5{
-  background-image: url("../img/a5.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a5.jpg");
   
 }
 .a-5 .answer, .a-6 .answer{
@@ -615,46 +615,46 @@ h1{
   right: 0px;
 }
 .a-6{
-  background-image: url("../img/a6.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a6.jpg");
   
 }
 .a-5 .logo-right-bottom, .a-6 .logo-right-bottom{
   left: 10px;
 }
 .a-7{
-  background-image: url("../img/a7.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a7.jpg");
   
 }
 .a-8{
-  background-image: url("../img/a8.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a8.jpg");
 }
 .a-7 .answer, .a-8 .answer{
   background-color:rgba(243,191,79,0.6);
 }
 .a-9{
-  background-image: url("../img/a9.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a9.jpg");
   
 }
 .a-10{
-  background-image: url("../img/a10.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a10.jpg");
 }
 .a-9 .answer, .a-10 .answer{
   background-color:rgba(72,116,99,0.6);
 }
 .a-11{
-  background-image: url("../img/a11.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a11.jpg");
 }
 .a-12{
-  background-image: url("../img/a12.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a12.jpg");
 }
 .a-11 .answer, .a-12 .answer{
   background-color:rgba(68,174,169,0.6);
 }
 .a-13{
-  background-image: url("../img/a13.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a13.jpg");
 }
 .a-14{
-  background-image: url("../img/a14.jpg");
+  background-image: url("https://diat4w9qa5tx9.cloudfront.net/lp/tttant/img/a14.jpg");
 }
 .a-13 .answer, .a-14 .answer{
   background-color:rgba(208,104,69,0.6);
